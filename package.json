@@ -1,0 +1,17 @@
+{
+  "name": "dot-the-developer-coding-test",
+  "version": "1.0.0",
+  "description": "Watched this video (https://youtu.be/yju4zwKSriI), this is the solution I came to.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@jest/globals": "^29.5.0",
+    "jest": "^29.5.0"
+  }
+}
